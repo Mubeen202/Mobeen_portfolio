@@ -37,10 +37,10 @@ const Contact = () => {
         "template_bwh08kc", // Template ID
         {
           from_name: form.name,
-          to_name: "Mobeen Portfolio",
+          to_name: `Mobeen you got an email from ${form.email} `,
           from_email: form.email,
           to_email: "mubeensheikh202@gmail.com",
-          message: form.message,
+          message: `${form.message}` ,
         },
         "xbdFKkOpLr_gsWOAJ" // API Key ID
       )
