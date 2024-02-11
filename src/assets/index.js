@@ -8,12 +8,15 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import react from "./react.svg"
 import node from "./nodejs.svg"
+import aws from "./aws.svg"
+import docker from "./docker.svg"
+import jenkins from "./jenkins.svg"
+import kubernetes from "./kubernetes.svg"
 import python_django from "./django.svg"
 import mongo_db from "./mongodb.svg"
 import mysql from "./mysql.svg"
 import angular_js from "./angular.svg"
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html1.png";
@@ -23,7 +26,7 @@ import drf from "./tech/drf.png";
 import postman from "./tech/postman.png";
 import flow from "./tech/flow.png";
 import near from "./tech/near.png";
-
+import haqana from "./company/haqana.png"
 
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
@@ -69,6 +72,9 @@ export {
   close,
   css,
   docker,
+  aws,
+  kubernetes,
+  jenkins,
   figma,
   git,
   html,
@@ -99,6 +105,7 @@ export {
   troon,
   ncri,
   it_routes,
+  haqana,
   //projects images
   bopayment,
   fortra,
@@ -113,7 +120,8 @@ export {
   drf,
   postman,
   near,
-  flow
+  flow,
+
 
 
 

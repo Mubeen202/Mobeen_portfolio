@@ -28,8 +28,13 @@ import {
   sql,
   drf,
   postman,
+  haqana,
   near,
-  flow
+  flow,
+  docker,
+  kubernetes,
+  aws,
+  jenkins
 } from "../assets";
 
 export const navLinks = [
@@ -73,6 +78,23 @@ const services = [
     title: "MYSQL",
     icon: mysql,
   },
+  {
+    title: "Docker",
+    icon: docker,
+  },
+  {
+    title: "Kubernetes",
+    icon: kubernetes,
+  },
+  {
+    title: "Jenkins",
+    icon: jenkins,
+  },
+  {
+    title: "AWS Lambda",
+    icon: aws,
+  },
+ 
 ];
 
 const technologies = [
@@ -146,21 +168,36 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Mern Stack Developer",
-    company_name: "Troon Technologiese",
-    icon: troon,
+    title: "Full Stack Developer",
+    company_name: "Haqana Corporate Sector Est.",
+    icon: haqana,
+    link:"https://www.haqanacsp.ae/",
     iconBg: "#383E56",
-    date: "July 2022 - Present",
+    date: "October 2023 - January 2024",
+    points: [
+      "Full Stack Developer with expertise in Node.js and microservices architecture.",
+      "Proficient in deploying applications on AWS Lambda",
+      "Developing dynamic and responsive frontend using React.js",
+    ],
+  },
+  {
+    title: "Mern Stack Developer",
+    company_name: "Troon Technologies",
+    icon: troon,
+    link:"https://troontechnologies.com/",
+    iconBg: "#383E56",
+    date: "July 2022 - August 2023",
     points: [
       "Working as a MERN developer at position with technologies Node js , React js , Express JS and Web3.0. FLow and NEAR blockchain integrate in application to get data and send transaction to the blockchain. Use Redux saga, Redux thunk and context api's for state management in applications.",
       "Use Node mailer and twillo for sending mail and SMS. Use Pinata, Cloudinary cloud storage in application. Use Multer for local storge in application",
-      "Use JWT and Passport(JWT) authentication. Use Cookies sesion for store session of user in application. Use Postman for test Api's. Create and Use swagger for test Api's",
+      "Use JWT and Passport(JWT) authentication. Use Cookies session for store session of user in application. Use Postman for test Api's. Create and Use swagger for test Api's",
     ],
   },
   {
     title: "Full Stack Developer",
     company_name: "NCRI Inc.",
     icon: ncri,
+    link:"https://ncri.com/",
     iconBg: "#E6DEDD",
     date: "May 2021 - June 2022",
     points: [
@@ -175,6 +212,7 @@ const experiences = [
     title: "Mern Stack Developer",
     company_name: "IT Routes, UK(Remote)",
     icon: it_routes,
+    link:"https://www.haqanacsp.ae/",
     iconBg: "#383E56",
     date: "Nov 2020 - Apr 2021",
     points: [
@@ -267,7 +305,7 @@ const projects = [
   {
     name: "Metaverse",
     description:
-      " Metaverse is am Nft reward platform where user play the game and get the Nfts In reward also can earn points and change it to nfts. In this project I integrate the near block.",
+      " Meta verse is am Nft reward platform where user can play the game and get the Nfts In reward also can earn points and change it to nfts.  In this project we integrate the NEAR blockchain Web3.0 wallet Integration with our project.",
     tags: [
       {
         name: "react",
@@ -292,7 +330,7 @@ const projects = [
   {
     name: "Bamboo Hr",
     description:
-      "BambooHR allows you to track hours worked, manage benefits enrollment, and run payroll all from a single platform. My contribution is just provide services on both front-end using AngularJs as well as back-end using Python-Django.",
+      "BambooHR is a human resources information system (HRIS) that bundles HR features such as payroll, time tracking, employee engagement, an applicant tracking system (ATS) and more into one system. My contribution is just provide services on both front-end using AngularJs as well as back-end using Python-Django.",
     tags: [
       {
         name: "angular",
@@ -314,7 +352,7 @@ const projects = [
   {
     name: "Lagravate",
     description:
-      "Lagravate project where I was involved in both the back-end and front- end development using Python Django and AngularJS. This project focused on streamlining the entire recruitment process, from candidate discovery and screening to the final on boarding of qualified applicants."
+      "Lagravate project where I was involved in both front-end development using AngularJS while back-end in Python Django. This project focused on entire recruitment process, from candidate discovery and screening to the final on boarding of qualified applicants."
     , tags: [
       {
         name: "Under Development to indicate that it's not live yet",
@@ -339,7 +377,7 @@ const projects = [
   {
     name: "Times Tables",
     description:
-    "Developed an interactive math application for children's using React.js and Node.js. The project aims to reinforce fundamental arithmetic concepts while sparking a love for learning among children's. Through engaging exercises and interactive modules, the app creates an enjoyable learning experience, making math fun and accessible for young learners"
+    "Developed an interactive math application for children's using React.js and Node.js. The project aims to reinforce fundamental arithmetic concepts while sparking a love for learning among children's through engaging exercises and interactive modules, the app creates an enjoyable learning experience, making math fun for young learners"
     , tags: [
      
       {
